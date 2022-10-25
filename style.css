@@ -1,0 +1,62 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+#home,
+#about,
+#my-work,
+#contact{
+    margin-right: 150px;
+    font-weight: bolder;
+    color: white;
+    list-style-type: none;
+    display: inline;
+}
+
+#home:hover,
+#about:hover,
+#my-work:hover,
+#contact:hover{
+    color: #f0860c;
+    cursor: pointer;
+}
+
+.portrait{
+    text-align: right;
+    
+   
+}
+
+.intro{
+    color: white;
+    list-style-type: none;
+    margin-right: 1000px;
+    position: absolute;
+    margin-top: 200px;
+    
+}
+
+#first{
+    font-size: 40px;
+    margin-right: 200px;
+    
+}
+
+#second{
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #home,
+    #about,
+    #my-work,
+    #contact{
+        display: none;
+    }
+  }
