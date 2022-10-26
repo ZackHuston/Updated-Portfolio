@@ -50,6 +50,13 @@ body{
     font-size: 25px;
 }
 
+ #horisean{
+    position: absolute;
+    margin-top: 50%;
+   
+    
+}
+ 
 
 @media only screen and (max-width: 600px) {
     #home,
